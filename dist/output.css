@@ -744,6 +744,15 @@ video {
     margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:bg-dark-violet {
+    --tw-bg-opacity: 1;
+    background-color: rgb(45 38 64 / var(--tw-bg-opacity));
+  }
+
+  .md\:bg-\[url\(\'\.\.\/images\/image-intro-desktop\.jpg\'\)\] {
+    background-image: url('../images/image-intro-desktop.jpg');
+  }
+
   .md\:p-0 {
     padding: 0px;
   }
