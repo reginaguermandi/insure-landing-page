@@ -13,7 +13,18 @@ module.exports = {
       headings: ['DM Serif Display', 'sans-serif'],
       body: ['Karla', 'serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'right-mobile-pattern': "url('./images/bg-pattern-intro-right-mobile.svg)",
+        'left-mobile-pattern': "url('./images/bg-pattern-intro-left-mobile.svg)",
+        'about-mobile-pattern': "url('./images/bg-pattern-how-we-work-mobile.svg)",
+        'footer-mobile-pattern': "url('./images/bg-pattern-footer-mobile.svg)",
+        'right-desktop-pattern': "url('./images/bg-pattern-intro-right-desktop.svg)",
+        'left-desktop-pattern': "url('./images/bg-pattern-intro-left-desktop.svg)",
+        'about-desktop-pattern': "url('./images/bg-pattern-how-we-work-desktop.svg)",
+        'footer-desktop-pattern': "url('./images/bg-pattern-footer-desktop.svg)"
+      }
+    },
   },
   plugins: [],
 }
