@@ -28,163 +28,165 @@
 </head>
 
 <body>
-  <div>
-    <header>
-      <!-- NAVIGATION BAR -->
-      <nav class="flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4">
-        <img class="w-15 h-5" src="../images/logo.svg" alt="insure logo">
-        <ul class="hidden md:inline-flex md:space-x-12 font-body uppercase font-bold">
-          <li class="text-dark-grayish-violet hover:text-very-dark-violet"><a href="#">How we work</a></li>
-          <li class="text-dark-grayish-violet hover:text-very-dark-violet"><a href="#">Blog</a></li>
-          <li class="text-dark-grayish-violet hover:text-very-dark-violet"><a href="#">Account</a></li>
-          <li>
-            <button class="px-3.5 border border-black uppercase hover:bg-very-dark-violet hover:text-very-light-gray">
-              View Plans
-            </button>
-          </li>
-        </ul>
-        <div class="md:hidden">
-          <img class="w-7" src="../images/icon-hamburger.svg" alt="menu icon">
+  <header>
+    <nav class="flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4">
+      <img class="w-15 h-5" src="../images/logo.svg" alt="insure logo">
+      <ul class="hidden md:inline-flex md:space-x-12 font-body uppercase font-bold">
+        <li class="text-dark-grayish-violet hover:text-very-dark-violet"><a href="#">How we work</a></li>
+        <li class="text-dark-grayish-violet hover:text-very-dark-violet"><a href="#">Blog</a></li>
+        <li class="text-dark-grayish-violet hover:text-very-dark-violet"><a href="#">Account</a></li>
+        <li>
+          <button class="px-3.5 border border-black uppercase hover:bg-very-dark-violet hover:text-very-light-gray">
+            View Plans
+          </button>
+        </li>
+      </ul>
+      <div class="md:hidden">
+        <img class="w-7" src="../images/icon-hamburger.svg" alt="menu icon">
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Intro -->
+    <section class="bg-dark-violet">
+
+      <div class="max-w-[1240px] mx-auto sm:grid sm:grid-cols-2 sm:justify-items-end">
+
+        <div class="sm:order-2">
+          <img class="xl:translate-y-36" src="../images/image-intro-desktop.jpg" alt="family walking">
         </div>
-      </nav>
-      <!-- END NAVIGATION BAR -->
-      <!-- INTRO -->
-      <div class="bg-dark-violet">
-        <div class="max-w-[1240px] mx-auto sm:grid sm:grid-cols-2 sm:justify-items-end">
 
-          <div class="sm:order-2">
-            <img class="xl:translate-y-36" src="../images/image-intro-desktop.jpg" alt="family walking">
-          </div>
+        <div class="relative max-w-[1240px] mx-auto px-4 sm:order-1 sm:px-0">
+          <img class="absolute -left-2 sm:hidden" src="../images/bg-pattern-intro-left-mobile.svg" alt="line pattern">
+          <img class="absolute right-0 -bottom-44 sm:hidden" src="../images/bg-pattern-intro-right-mobile.svg"
+            alt="line pattern">
+          <img class="hidden sm:block sm:absolute sm:-left-2 sm:w-40" src="../images/bg-pattern-intro-left-desktop.svg"
+            alt="">
 
-          <div class="max-w-[1240px] mx-auto px-4 sm:order-1 sm:px-0">
 
-            <div class="py-16 text-center text-very-light-gray sm:px-4 sm:text-left md:translate-y-20">
-              <div class="sm:h-0.5 sm:w-1/6 sm:bg-very-light-gray sm:opacity-80"></div>
 
-              <h1 class="font-headings text-4xl sm:pt-5 lg:pt-14 lg:text-6xl ">
-                Humanizing<br>
-                your
-                insurance.
-              </h1>
-
-              <p class="py-4 px-4 leading-6 font-body text-sm sm:px-0 lg:text-lg lg:pr-20 ">
-                Get your life
-                insurance coverage easier and faster. We blend our expertise and technology to help you find
-                the plan that’s right for you.
-                Ensure you and your loved ones are protected.
-              </p>
-
-              <div class="pt-5">
-                <button
-                  class="px-5 py-1.5 border-2 border-very-light-gray font-body uppercase text-very-light-gray hover:bg-very-light-gray hover:text-very-dark-violet">View
-                  plans</button>
-              </div>
+          <div class="py-16 text-center text-very-light-gray sm:px-4 sm:text-left md:translate-y-20">
+            <div class="sm:h-0.5 sm:w-1/6 sm:bg-very-light-gray sm:opacity-80"></div>
+            <h1 class="font-headings text-4xl sm:pt-5 lg:pt-14 lg:text-6xl ">
+              Humanizing<br>
+              your
+              insurance.
+            </h1>
+            <p class="py-4 px-4 leading-6 font-body text-sm sm:px-0 lg:text-lg lg:pr-20 ">
+              Get your life
+              insurance coverage easier and faster. We blend our expertise and technology to help you find
+              the plan that’s right for you.
+              Ensure you and your loved ones are protected.
+            </p>
+            <div class="pt-5">
+              <button
+                class="px-5 py-1.5 border-2 border-very-light-gray font-body font-bold uppercase text-very-light-gray hover:bg-very-light-gray hover:text-very-dark-violet">
+                View plans
+              </button>
             </div>
           </div>
-
-        </div>
-      </div>
-      <!-- END INTRO -->
-    </header>
-
-    <main>
-      <div class="max-w-[1240px] mx-auto px-4">
-
-        <div class="LINHA DECORATIVA"></div>
-        <h2>We’re different</h2>
-
-        <div class="container dos cards">
-          <div>
-            <img src="../images/icon-snappy-process.svg" alt="">
-            <span>Snappy Process</span>
-            <p>Our application process can be completed in minutes, not hours. Don’t get
-              stuck filling in tedious forms.</p>
-          </div>
-          <div>
-            <img src="../images/icon-affordable-prices.svg" alt="">
-            <span>Affordable Prices</span>
-            <p>We don’t want you worrying about high monthly costs. Our prices may be low,
-              but we still offer the best coverage possible.</p>
-          </div>
-          <div>
-            <img src="../images/icon-people-first.svg" alt="">
-            <span>People First</span>
-            <p> Our plans aren’t full of conditions and clauses to prevent payouts. We make
-              sure you’re covered when you need it.</p>
-          </div>
         </div>
 
       </div>
+    </section>
+    <!-- Products -->
+    <section class="max-w-[1240px] mx-auto px-4 sm:pt-96">
 
-      <div class="max-w-[1240px] mx-auto px-4">
-        <p>Find out more about how we work</p>
-        <button>How we worko</button>
+      <div class="LINHA DECORATIVA"></div>
+      <h2>We’re different</h2>
+
+      <div class="container dos cards">
+        <div>
+          <img src="../images/icon-snappy-process.svg" alt="">
+          <span>Snappy Process</span>
+          <p>Our application process can be completed in minutes, not hours. Don’t get
+            stuck filling in tedious forms.</p>
+        </div>
+        <div>
+          <img src="../images/icon-affordable-prices.svg" alt="">
+          <span>Affordable Prices</span>
+          <p>We don’t want you worrying about high monthly costs. Our prices may be low,
+            but we still offer the best coverage possible.</p>
+        </div>
+        <div>
+          <img src="../images/icon-people-first.svg" alt="">
+          <span>People First</span>
+          <p> Our plans aren’t full of conditions and clauses to prevent payouts. We make
+            sure you’re covered when you need it.</p>
+        </div>
       </div>
+    </section>
+    <!-- How we work -->
+    <section class="max-w-[1240px] mx-auto px-4">
+      <p>Find out more about how we work</p>
+      <button>How we work</button>
+    </section>
+  </main>
 
-    </main>
-    <footer class="border-2 border-fuchsia-700">
+  <footer class="border-2 border-fuchsia-700">
 
-      <div class="max-w-[1240px] mx-auto px-4">
-        <img src="../images/logo.svg" alt="logo insure">
+    <div class="max-w-[1240px] mx-auto px-4">
+      <img src="../images/logo.svg" alt="logo insure">
+      <ul>
+        <li><img src="../images/icon-facebook.svg" alt=""></li>
+        <li><img src="../images/icon-twitter.svg" alt=""></li>
+        <li><img src="../images/icon-pinterest.svg" alt=""></li>
+        <li><img src="../images/icon-instagram.svg" alt=""></li>
+      </ul>
+      <div>
+        <div class="linda decorativa"></div>
+      </div>
+    </div>
+
+    <nav class="max-w-[1240px] mx-auto px-4">
+
+      <div>
         <ul>
-          <li><img src="../images/icon-facebook.svg" alt=""></li>
-          <li><img src="../images/icon-twitter.svg" alt=""></li>
-          <li><img src="../images/icon-pinterest.svg" alt=""></li>
-          <li><img src="../images/icon-instagram.svg" alt=""></li>
+          <li>Our company</li>
+          <li>How we work</li>
+          <li>Why Insure?</li>
+          <li>View plans</li>
+          <li>Reviews</li>
         </ul>
-        <div>
-          <div class="linda decorativa"></div>
-        </div>
       </div>
 
-      <nav class="max-w-[1240px] mx-auto px-4">
-
-        <div>
-          <ul>
-            <li>Our company</li>
-            <li>How we work</li>
-            <li>Why Insure?</li>
-            <li>View plans</li>
-            <li>Reviews</li>
-          </ul>
-        </div>
-
-        <div>
-          <ul>
-            <li>Help me</li>
-            <li>FAQ</li>
-            <li>Terms of use</li>
-            <li>Privacy policy</li>
-            <li>Cookies</li>
-          </ul>
-        </div>
-
-        <div>
-          <ul>
-            <li>Contact</li>
-            <li>Sales</li>
-            <li>Support</li>
-            <li>Live chat</li>
-          </ul>
-        </div>
-
-        <div>
-          <ul>
-            <li> Others</li>
-            <li>Careers</li>
-            <li> Press</li>
-            <li>Licenses</li>
-          </ul>
-        </div>
-
-      </nav>
-
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
+      <div>
+        <ul>
+          <li>Help me</li>
+          <li>FAQ</li>
+          <li>Terms of use</li>
+          <li>Privacy policy</li>
+          <li>Cookies</li>
+        </ul>
       </div>
-    </footer>
-  </div>
+
+      <div>
+        <ul>
+          <li>Contact</li>
+          <li>Sales</li>
+          <li>Support</li>
+          <li>Live chat</li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <li> Others</li>
+          <li>Careers</li>
+          <li> Press</li>
+          <li>Licenses</li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+
 
 </body>
 
