@@ -679,6 +679,30 @@ video {
   bottom: -12rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.bottom-96 {
+  bottom: 24rem;
+}
+
+.bottom-48 {
+  bottom: 12rem;
+}
+
+.bottom-44 {
+  bottom: 11rem;
+}
+
+.bottom-52 {
+  bottom: 13rem;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -898,6 +922,26 @@ video {
     bottom: -11rem;
   }
 
+  .sm\:-bottom-32 {
+    bottom: -8rem;
+  }
+
+  .sm\:right-0 {
+    right: 0px;
+  }
+
+  .sm\:-right-96 {
+    right: -24rem;
+  }
+
+  .sm\:top-0 {
+    top: 0px;
+  }
+
+  .sm\:-right-0 {
+    right: -0px;
+  }
+
   .sm\:order-2 {
     order: 2;
   }
@@ -932,6 +976,14 @@ video {
 
   .sm\:w-40 {
     width: 10rem;
+  }
+
+  .sm\:w-20 {
+    width: 5rem;
+  }
+
+  .sm\:w-32 {
+    width: 8rem;
   }
 
   .sm\:grid-cols-2 {
@@ -980,6 +1032,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:-left-2 {
+    left: -0.5rem;
+  }
+
   .md\:inline-flex {
     display: inline-flex;
   }
@@ -1015,8 +1071,92 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:-left-2 {
+    left: -0.5rem;
+  }
+
+  .lg\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .lg\:-bottom-44 {
+    bottom: -11rem;
+  }
+
+  .lg\:-bottom-64 {
+    bottom: -16rem;
+  }
+
+  .lg\:-bottom-96 {
+    bottom: -24rem;
+  }
+
+  .lg\:-left-44 {
+    left: -11rem;
+  }
+
+  .lg\:-left-24 {
+    left: -6rem;
+  }
+
+  .lg\:-left-20 {
+    left: -5rem;
+  }
+
+  .lg\:right-0 {
+    right: 0px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-52 {
+    height: 13rem;
+  }
+
+  .lg\:h-96 {
+    height: 24rem;
+  }
+
+  .lg\:w-5 {
+    width: 1.25rem;
+  }
+
+  .lg\:w-10 {
+    width: 2.5rem;
+  }
+
+  .lg\:w-12 {
+    width: 3rem;
+  }
+
+  .lg\:w-20 {
+    width: 5rem;
+  }
+
+  .lg\:w-40 {
+    width: 10rem;
+  }
+
+  .lg\:w-72 {
+    width: 18rem;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
   }
 
   .lg\:pt-14 {
@@ -1039,6 +1179,42 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:-left-full {
+    left: -100%;
+  }
+
+  .xl\:-left-96 {
+    left: -24rem;
+  }
+
+  .xl\:-left-80 {
+    left: -20rem;
+  }
+
+  .xl\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .xl\:right-0 {
+    right: 0px;
+  }
+
+  .xl\:-bottom-48 {
+    bottom: -12rem;
+  }
+
+  .xl\:-bottom-80 {
+    bottom: -20rem;
+  }
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:hidden {
+    display: none;
+  }
+
   .xl\:translate-y-36 {
     --tw-translate-y: 9rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
