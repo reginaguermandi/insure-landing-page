@@ -29,20 +29,28 @@
 
 <body>
   <header>
-    <nav class="flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4">
+    <nav class="relative flex justify-between items-center max-w-[1240px] mx-auto px-4 h-20">
       <img class="w-15 h-5" src="../images/logo.svg" alt="insure logo">
-      <ul class="hidden md:inline-flex md:space-x-12 font-body uppercase font-bold">
-        <li class="text-dark-grayish-violet hover:text-very-dark-violet"><a href="#">How we work</a></li>
-        <li class="text-dark-grayish-violet hover:text-very-dark-violet"><a href="#">Blog</a></li>
-        <li class="text-dark-grayish-violet hover:text-very-dark-violet"><a href="#">Account</a></li>
-        <li>
-          <button class="px-3.5 border border-black uppercase hover:bg-very-dark-violet hover:text-very-light-gray">
-            View Plans
-          </button>
+      <ul id="mobileMenu" class="absolute top-20 left-0 right-0 -bottom-[800px] py-14 text-center leading-10  z-10 text-very-light-gray bg-very-dark-violet font-body uppercase font-bold md:static md:flex md:space-x-12 md:bg-inherit">
+        <li class="py-4 md:py-0">
+          <a href="#" class="md:text-dark-grayish-violet md:hover:text-very-dark-violet">How we work</a>
         </li>
+        <li class="py-4 md:py-0">
+          <a href="#" class="md:text-dark-grayish-violet md:hover:text-very-dark-violet">Blog</a>
+        </li>
+        <li class="py-4 md:py-0">
+          <a href="#" class="md:text-dark-grayish-violet md:hover:text-very-dark-violet">Account</a>
+        </li>
+        
+        <button class="px-28 md:px-3.5 border-2 border-very-light-gray md:border-black md:text-black md:hover:bg-very-dark-violet md:hover:text-very-light-gray uppercase">
+            View Plans
+        </button>
+        <img class="absolute w-full bottom-0 md:hidden" src="../images/bg-pattern-mobile-nav.svg" alt="">      
       </ul>
+
       <div class="md:hidden">
-        <img class="w-7" src="../images/icon-hamburger.svg" alt="menu icon">
+        <img id="open" class="w-7" src="../images/icon-hamburger.svg" alt="open menu icon">
+        <img id="close" class="w-7 hidden" src="../images/icon-close.svg" alt="close menu icon">
       </div>
     </nav>
   </header>
@@ -181,66 +189,66 @@
 
       <div class="order-1 py-5">
         <span class=" text-dark-grayish-violet">Our company</span>
-        <ul class="pt-5">
-          <li>
-            <a href="#">How we work</a>
+        <ul class="pt-5 leading-7">
+          <li class="">
+            <a class="hover:text-dark-grayish-violet" href="#">How we work</a>
           </li>
           <li>
-            <a href="#">Why Insure?</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Why Insure?</a>
           </li>
           <li>
-            <a href="#">Check Price</a>
+            <a class="hover:text-dark-grayish-violet"href="#">Check Price</a>
           </li>
           <li>
-            <a href="#">Reviews</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Reviews</a>
           </li>
         </ul>
       </div>
 
       <div class="order-2 py-5">
         <span class="text-dark-grayish-violet">Help me</span>
-        <ul class="pt-5">
+        <ul class="pt-5 leading-7">
           <li>
-            <a href="#">FAQ</a>
+            <a class="hover:text-dark-grayish-violet" href="#">FAQ</a>
           </li>
           <li>
-            <a href="#">Terms of use</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Terms of use</a>
           </li>
           <li>
-            <a href="#">Privacy policy</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Privacy policy</a>
           </li>
           <li>
-            <a href="#">Cookies</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Cookies</a>
           </li>
         </ul>
       </div>
 
       <div class="order-3 py-5">
         <span class="text-dark-grayish-violet">Contact</span>
-        <ul class="pt-5">
+        <ul class="pt-5 leading-7">
           <li>
-            <a href="#">Sales</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Sales</a>
           </li>
           <li>
-            <a href="#">Support</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Support</a>
           </li>
           <li>
-            <a href="#">Live chat</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Live chat</a>
           </li>
         </ul>
       </div>
 
       <div class="order-4 py-5">
         <span class="text-dark-grayish-violet">Others</span>
-        <ul class="pt-5">
+        <ul class="pt-5 leading-7">
           <li>
-            <a href="#">Careers</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Careers</a>
           </li>
           <li>
-            <a href="#">Press</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Press</a>
           </li>
           <li>
-            <a href="#">Licenses</a>
+            <a class="hover:text-dark-grayish-violet" href="#">Licenses</a>
           </li>
         </ul>
       </div>
@@ -254,7 +262,7 @@
   </div>
   </footer>
 
-
+<script src="script.js"></script>
 </body>
 
 </html>
