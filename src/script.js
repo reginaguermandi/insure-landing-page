@@ -17,4 +17,5 @@ function closeMenu() {
 openBtn.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);
 menu.addEventListener('click', closeMenu);
+menu.addEventListener('scroll', closeMenu)
 

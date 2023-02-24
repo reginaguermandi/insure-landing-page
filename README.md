@@ -4,18 +4,14 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 
 ## Table of contents
 
-- [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ### The challenge
 
@@ -26,14 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/desktop.png)
+![](./images/mobile.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
@@ -41,15 +36,14 @@ Users should be able to:
 - Mobile-first workflow
 - Tailwind CSS
 
-
-### What I learned
-
 ### Continued development
+
+- Learn about transitions and animations with Tailwind CSS for future projects.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - 
-- [Example resource 2](https://www.example.com) - 
+- [Tailwindcss Docs](https://tailwindcss.com/docs) 
+- [Best Practices for Tailwind CSS](https://dev.to/olacampuspune/best-practices-for-tailwind-css-4p0n)
 
 ## Author
 
