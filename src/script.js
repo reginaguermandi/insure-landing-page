@@ -1,15 +1,20 @@
 const menu = document.getElementById('menu');
-const openMenu = document.getElementById('open');
-const closeMenu = document.getElementById('close');
+const openBtn = document.getElementById('open');
+const closeBtn = document.getElementById('close');
 
-openMenu.onclick = () => {
+function openMenu() {
   menu.classList.remove('hidden')
-  openMenu.classList.add('hidden')
-  closeMenu.classList.remove('hidden');
+  openBtn.classList.add('hidden')
+  closeBtn.classList.remove('hidden')
 };
 
-closeMenu.onclick = () => {
+function closeMenu() {
   menu.classList.add('hidden')
-  openMenu.classList.remove('hidden')
-  closeMenu.classList.add('hidden');
+  openBtn.classList.remove('hidden')
+  closeBtn.classList.add('hidden')
 };
+
+openBtn.addEventListener('click', openMenu);
+closeBtn.addEventListener('click', closeMenu);
+menu.addEventListener('click', closeMenu);
+
