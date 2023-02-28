@@ -30,31 +30,46 @@
 
 <body>
   <header>
-    <nav class="relative flex justify-between items-center max-w-[1240px] mx-auto px-4 h-20">
-      <img class="w-15 h-5" src="../images/logo.svg" alt="insure logo">
-      <ul id="menu"
-        class="hidden absolute top-20 left-0 right-0 -bottom-[850px] py-14 text-center leading-10 z-10 text-very-light-gray font-body uppercase font-bold bg-very-dark-violet md:static md:flex md:space-x-12 md:bg-inherit">
-        <li class="py-4 md:py-0">
-          <a href="#" class="md:text-dark-grayish-violet md:hover:text-very-dark-violet">How we work</a>
-        </li>
-        <li class="py-4 md:py-0">
-          <a href="#" class="md:text-dark-grayish-violet md:hover:text-very-dark-violet">Blog</a>
-        </li>
-        <li class="py-4 md:py-0">
-          <a href="#" class="md:text-dark-grayish-violet md:hover:text-very-dark-violet">Account</a>
-        </li>
+    <nav class="relative max-w-[1240px] mx-auto px-4 h-20">
+      <div class="flex justify-between items-center py-5">
+        <img class="w-15 h-5" src="../images/logo.svg" alt="insure logo">
+        <div class="inline-flex items-center space-x-5 uppercase font-body font-bold">
+          <ul id="menu" class="inline-flex space-x-5">
+            <li>
+              <a href="#" class="md:text-dark-grayish-violet md:hover:text-very-dark-violet">How we work</a>
+            </li>
+            <li>
+              <a href="#" class="md:text-dark-grayish-violet md:hover:text-very-dark-violet">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="md:text-dark-grayish-violet md:hover:text-very-dark-violet">Account</a>
+            </li>
+          </ul>
+          <div class="hidden md:block">
+            <button
+              class="px-5 py-1.5  border-2 border-very-light-gray md:border-black md:text-black md:hover:bg-very-dark-violet md:hover:text-very-light-gray uppercase">
+              View Plans
+            </button>
+          </div>
+        </div>
 
+
+
+        <div class="md:hidden">
+          <img id="open" aria-label="open menu" class="w-7" src="../images/icon-hamburger.svg" alt="open menu icon">
+          <img id="close" aria-label="close menu" class="w-7 hidden" src="../images/icon-close.svg"
+            alt="close menu icon">
+        </div>
+
+      </div>
+
+      <div class="hidden">
         <button
-          class="px-28 md:px-3.5 border-2 border-very-light-gray md:border-black md:text-black md:hover:bg-very-dark-violet md:hover:text-very-light-gray uppercase">
+          class="px-5 py-1.5  border-2 border-very-light-gray md:border-black md:text-black md:hover:bg-very-dark-violet md:hover:text-very-light-gray uppercase">
           View Plans
         </button>
-        <img class="absolute w-full bottom-0 md:hidden" src="../images/bg-pattern-mobile-nav.svg" alt="line pattern">
-      </ul>
-
-      <div class="md:hidden">
-        <img id="open" aria-label="open menu" class="w-7" src="../images/icon-hamburger.svg" alt="open menu icon">
-        <img id="close" aria-label="close menu" class="w-7 hidden" src="../images/icon-close.svg" alt="close menu icon">
       </div>
+
     </nav>
   </header>
 
