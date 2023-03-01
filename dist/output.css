@@ -513,6 +513,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.visible {
+  visibility: visible;
+}
+
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -523,6 +531,10 @@ video {
 
 .relative {
   position: relative;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .left-0 {
@@ -551,6 +563,34 @@ video {
 
 .bottom-0 {
   bottom: 0px;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.bottom-20 {
+  bottom: 5rem;
+}
+
+.bottom-48 {
+  bottom: 12rem;
+}
+
+.bottom-28 {
+  bottom: 7rem;
+}
+
+.bottom-40 {
+  bottom: 10rem;
+}
+
+.bottom-32 {
+  bottom: 8rem;
+}
+
+.bottom-24 {
+  bottom: 6rem;
 }
 
 .z-10 {
@@ -631,6 +671,18 @@ video {
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -653,6 +705,14 @@ video {
 
 .max-w-\[1240px\] {
   max-width: 1240px;
+}
+
+.origin-top {
+  transform-origin: top;
+}
+
+.origin-right {
+  transform-origin: right;
 }
 
 .translate-x-28 {
@@ -712,6 +772,21 @@ video {
 
 .translate-y-64 {
   --tw-translate-y: 16rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-0 {
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-x-\[100\%\] {
+  --tw-translate-x: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-\[100\%\] {
+  --tw-translate-y: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -970,6 +1045,10 @@ video {
   transition-duration: 500ms;
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1069,6 +1148,10 @@ video {
 @media (min-width: 768px) {
   .md\:static {
     position: static;
+  }
+
+  .md\:relative {
+    position: relative;
   }
 
   .md\:top-0 {

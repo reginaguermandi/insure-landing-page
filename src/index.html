@@ -30,12 +30,13 @@
 
 <body>
   <header>
-    <nav class="relative max-w-[1240px] mx-auto px-4 h-20">
+    <nav class="max-w-[1240px] mx-auto px-4 h-20">
       <div class="flex justify-between items-center py-7">
         <img class="w-15 h-5" src="../images/logo.svg" alt="insure logo">
         <div id="menu"
-          class="absolute inline-flex flex-col items-center space-x-5 z-10 w-full left-0 top-20 h-screen translate-x-[100%] transition-all ease-in-out duration-500 uppercase font-body font-bold text-white bg-very-dark-violet md:static md:w-auto md:h-0 md:flex-row md:transition-none md:bg-white ">
-          <ul class="inline-flex flex-col items-center mt-16 space-y-7 md:mt-0 md:space-y-0 md:flex-row md:space-x-5">
+          class="fixed inline-flex flex-col items-center space-x-5 z-10 w-full left-0 top-20 h-screen translate-x-[100%] transition-all ease-in-out duration-500 uppercase font-body font-bold text-white bg-very-dark-violet md:static md:w-auto md:h-0 md:flex-row md:transition-none md:translate-x-0 md:bg-white ">
+          <ul role="menu"
+            class="inline-flex flex-col items-center mt-16 space-y-7 md:mt-0 md:space-y-0 md:flex-row md:space-x-5">
             <li>
               <a href="#" class="md:text-dark-grayish-violet md:hover:text-very-dark-violet">How we work</a>
             </li>
@@ -52,12 +53,13 @@
               View Plans
             </button>
           </div>
-          <div class="absolute bottom-0">
+          <div class="absolute bottom-0 md:hidden">
             <img src="../images/bg-pattern-mobile-nav.svg" alt="line pattern">
           </div>
         </div>
         <div class="md:hidden">
-          <img aria-label="open menu" class="open w-7" src="../images/icon-hamburger.svg" alt="open menu icon">
+          <img aria-label="open menu" aria-controls="menu" class="open w-7" src="../images/icon-hamburger.svg"
+            alt="open menu icon">
           <img aria-label="close menu" class="close w-7 hidden" src="../images/icon-close.svg" alt="close menu icon">
         </div>
       </div>
