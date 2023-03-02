@@ -10,15 +10,6 @@ function handleBtn() {
   document.body.style.overflowY = document.body.style.overflowY === 'hidden' ? 'visible' : 'hidden';
 };
 
-function openMenu() {
-  handleBtn()
-
-};
-
-function closeMenu() {
-  handleBtn()
-}
-
 openBtn.addEventListener('click', handleBtn);
 closeBtn.addEventListener('click', handleBtn);
 menu.addEventListener('click', handleBtn);
